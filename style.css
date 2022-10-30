@@ -62,13 +62,14 @@
 #products-page {
     background-size: cover;
     background: url(images/bannner.jpg) center;
-    height: 80vh;
+    height: 97vh;
 
 }
 
 .products {
     position: absolute;
     text-align: center;
+
 
 }
 .product {
@@ -97,9 +98,31 @@ ul {
 }
 
 @media screen and (max-width: 1517px) {
-  #products-page{
-       background: url(images/bannner.jpg) center;
-       background-size: cover;
-       height: 300vh;
+  #products-page {
+      background: url(images/bannner.jpg) center;
+      background-size: cover;
+      height: 300vh;
+  }
+  .product{
+      width: 25%;
+  }
+}
+@media screen and (max-width: 769px) {
+    .logo {
+        width: 30%;
+        height: 10%;
+
+    }
+    #banner{
+        padding-top: 3vh;
+    }
+    #products-page {
+      background: url(images/bannner.jpg) center;
+      background-size: cover;
+      height: 360vh;
+  }
+    .product{
+      width: 70%;
+      padding-left: 60px;
   }
 }
