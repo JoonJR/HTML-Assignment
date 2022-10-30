@@ -6,7 +6,7 @@
 #banner {
     background-size: cover;
     background: url(images/bannner.jpg) center;
-    height: 200vh;
+    height: 30vh;
 }
 .logo{
     position: absolute;
@@ -16,7 +16,7 @@
 .banner-text{
     text-align: center;
     color: #fff;
-    padding-top: 250px;
+    padding-top: 130px;
 }
 .banner-btn{
     margin: 0 auto 0;
@@ -54,26 +54,52 @@
 }
 .container{
     position: relative;
-    padding-bottom: 56.25%;
     padding-top: 25px;
     padding-left: 19%;
     width: 500px;
     height: 281.25px;
 }
+#products-page {
+    background-size: cover;
+    background: url(images/bannner.jpg) center;
+    height: 80vh;
+
+}
+
 .products {
-    position: relative;
+    position: absolute;
     text-align: center;
 
 }
-.mrsteele {
-    width: 200px;
+.product {
+    width: 17%;
     float: left;
     padding-left: 120px;
     padding-top: 50px;
 }
-.apex {
-    width: 200px;
-    float: left;
-    padding-left: 120px;
-    padding-top: 50px;
+h2{
+    color: white;
+}
+.price{
+    color: white;
+}
+h3{
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+}
+.mapouter{
+    padding-top: 5%;
+    padding-left: 60%;
+}
+ul {
+    color: white;
+}
+
+@media screen and (max-width: 1517px) {
+  #products-page{
+       background: url(images/bannner.jpg) center;
+       background-size: cover;
+       height: 300vh;
+  }
 }
