@@ -3,11 +3,6 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-#banner {
-    background-size: cover;
-    background: url(images/bannner.jpg) center;
-    height: 30vh;
-}
 .logo{
     position: absolute;
     top: 4%;
@@ -59,24 +54,19 @@
     width: 500px;
     height: 281.25px;
 }
-#products-page {
-    background-size: cover;
+body {
     background: url(images/bannner.jpg) center;
-    height: 97vh;
-
 }
-
 .products {
     position: absolute;
     text-align: center;
 
-
 }
 .product {
-    width: 17%;
+    width: 20%;
     float: left;
     padding-left: 120px;
-    padding-top: 50px;
+    padding-top: 55px;
 }
 h2{
     color: white;
@@ -89,40 +79,40 @@ h3{
     text-align: left;
     padding-left: 10px;
 }
-.mapouter{
-    padding-top: 5%;
-    padding-left: 60%;
+h4{
+    color: white;
+}
+.information{
+    padding-left: 1%;
+    padding-top: 15%;
+    background: black;
+    color: white;
+}
+.row iframe{
+    padding-top: 10%;
+
 }
 ul {
     color: white;
+    background: black;
 }
 
 @media screen and (max-width: 1517px) {
-  #products-page {
-      background: url(images/bannner.jpg) center;
-      background-size: cover;
-      height: 300vh;
-  }
-  .product{
-      width: 25%;
-  }
+    .product {
+        padding-left: 15vh;
+        width: 15%;
+    }
 }
 @media screen and (max-width: 769px) {
     .logo {
-        width: 30%;
-        height: 10%;
-
+        max-width: 40%;
+        max-height: 40%;
     }
-    #banner{
+    #banner {
         padding-top: 3vh;
     }
-    #products-page {
-      background: url(images/bannner.jpg) center;
-      background-size: cover;
-      height: 360vh;
-  }
-    .product{
-      width: 70%;
-      padding-left: 60px;
-  }
+    .product {
+        width: 70%;
+        padding-left: 60px;
+    }
 }
