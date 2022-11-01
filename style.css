@@ -126,11 +126,13 @@ ul {
     #banner {
         padding-top: 3vh;
     }
-    .container {
-        padding-top: 25px;
-        padding-left: 13%;
-        width: 500px;
-        height: 281.25px;
+    .container iframe{
+        padding-top: 3%;
+        display: block;
+        margin: auto;
+        border: 0px;
+        width: 550px;
+        height: 309.38px;
     }
     .product {
         width: 70%;
@@ -159,8 +161,8 @@ ul {
     .container iframe{
         padding-top: 25px;
         padding-left: 1%;
-        width: 300px;
-        height: 168.75px;
+        width: 350px;
+        height: 196.88px;
     }
     .product {
         width: 70%;
