@@ -72,6 +72,7 @@ body {
 .ad-text{
     font-family: 'Nunito', sans-serif;
     color: white;
+    padding-left: 0.5%;
 }
 .products {
     position: absolute;
