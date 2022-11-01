@@ -50,14 +50,13 @@
 .companyname{
     background: black;
 }
-.container{
-    padding-top: 15px;
-    padding-left: 35%;
+.container iframe{
+    padding-top: 1%;
+    display: block;
+    margin: auto;
+    border: 0px;
     width: 500px;
     height: 281.25px;
-}
-.container iframe{
-    border: 0px;
 }
 body {
     background: url(images/bannner.jpg) center;
@@ -67,16 +66,20 @@ body {
     text-align: center;
     color: white;
 }
-
+#ad{
+    padding-top: 2%;
+}
+.ad-text{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
 .products {
     position: absolute;
-    text-align: center;
-
 }
 .product {
     width: 18%;
     float: left;
-    padding-left: 120px;
+    padding-left: 110px;
     padding-top: 55px;
 }
 h2{
