@@ -6,7 +6,7 @@
 .logo{
     position: absolute;
     top: 4%;
-    left: 0%;
+    left: 0;
 }
 .banner-text{
     text-align: center;
@@ -47,14 +47,14 @@
 .banner-btn a:hover{
     color: black;
 }
-.companyname{
+.company-name{
     background: black;
 }
 .container iframe{
     padding-top: 1%;
     display: block;
     margin: auto;
-    border: 0px;
+    border: 0;
 
 }
 body {
@@ -137,7 +137,7 @@ ul {
         padding-top: 3%;
         display: block;
         margin: auto;
-        border: 0px;
+        border: 0;
         width: 550px;
         height: 309.38px;
     }
