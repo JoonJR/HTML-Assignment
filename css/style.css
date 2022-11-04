@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+
 .logo{
     position: absolute;
     top: 4%;
@@ -77,6 +78,10 @@
     float: left;
     padding-left: 110px;
     padding-top: 55px;
+}
+h1{
+    font-size: 40px;
+    margin: 0 0 8px;
 }
 h2{
     color: white;
