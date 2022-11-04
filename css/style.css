@@ -42,7 +42,6 @@
 }
 .banner-btn a:hover span{
     width: 100%;
-
 }
 .banner-btn a:hover{
     color: black;
@@ -56,9 +55,6 @@
     margin: auto;
     border: 0;
 
-}
-body {
-    background: url(/images/bannner.jpg) center;
 }
 #text{
     padding-top: 2%;
@@ -96,7 +92,6 @@ h3{
 h4 {
     color: white;
 }
-
 .row iframe{
     padding-top: 10%;
 }
@@ -110,7 +105,6 @@ ul {
     color: white;
     background: black;
 }
-
 @media screen and (max-width: 1593px) {
     .product {
         padding-left: 15vh;
@@ -129,7 +123,6 @@ ul {
         max-width: 17%;
         max-height: 7%;
     }
-
     #banner {
         padding-top: 3vh;
     }
@@ -149,13 +142,10 @@ ul {
         max-width: 110%;
         max-height: 90%;
         padding-right: 15%;
-
     }
     .information{
         padding-left: 5%;
     }
-
-
 }
 @media screen and (max-width: 413px) {
     .logo {
