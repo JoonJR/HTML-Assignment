@@ -58,7 +58,7 @@
 
 }
 body {
-    background: url(images/bannner.jpg) center;
+    background: url(/images/bannner.jpg) center;
 }
 #text{
     padding-top: 2%;
